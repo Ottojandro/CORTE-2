@@ -1,9 +1,9 @@
 def cuenta_regresiva(n):
-    if n == 0:
+    if n==0:
         print(0)
     else:
         print(n)
-        cuenta_regresiva(n - 1)
-
-numero = int(input("Ingrese un número para iniciar la cuenta regresiva: "))
+        cuenta_regresiva( n-1)
+    
+numero= int(input("ingrese un numero para la cuenta regresiva: "))
 cuenta_regresiva(numero)
